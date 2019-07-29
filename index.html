@@ -5,43 +5,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <link rel="stylesheet" type="text/css" href="main.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Andika|Cabin:400,400i&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Open+Sans|Cabin:400,400i&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <main role="main">
+        <nav role="navigation">
+                    <div>
+                    <p><a href="#projects">Projects</a></p> 
+                    <p>|</p>
+                    <p><a href="#contact">Contact</a></p>
+                    </div>
+        </nav>
         <header role="banner">
             <div>
-            <h1>Nadine S. Graham</h1>
-            <h3>Web Developer and Jack (okay, Jill) of all trades</h3>
+                <div><img src="img/profile_full.jpg" alt="My picture"></div>
+                <h1>Nadine S. Graham</h1>
+                <p>Web Developer and Jack (well, Jill) of all trades</p>
             </div>
             </header>
         </header>
-        <nav role="navigation">
-                <div>
-                <p><a href="#projects">Projects</a></p> 
-                <p>|</p>
-                <p><a href="#contact">Contact</a></p>
-                </div>
-        </nav>
         <section class="intro">
-            <div><img src="img/Profile.jpg" alt="My picture"></div>
             <p class="introText">Hello! My name's Nadine, and I've done a lot of things in my life so far. I'm currently a Front End Web Developer, but I've been a Software Engineer in different technologies at Thomson Reuters for 8 years. Also, I hold a Master of Fine of Arts in Dramatic Writing (screenwriting and playwriting) from New York University's Tisch School of the Arts. I love coding for the same reasons I love playwriting; they both involve creative problem-solving using logic, frameworks, and they both benefit from a personal touch.</p>
         </section>
 
         <section id="projects">
             <h3>Projects</h3>
-            <div>
-            <p>Project title: Marvel Movies Quiz<br>
-            Project description: A quick quiz on the Marvel Movies!<br>
+            <div class="project">
+            <h4>Marvel Movies Quiz</h4>
+            
+            <label>Thumbnails</label>
+            <div class="thumbnails">
+            <a href="https://hudsonst.github.io/" target="_blank"><img src="img/marvel_thumb.png" alt="Marvel Quiz Thumbnail"></a>
+            <a href="https://hudsonst.github.io/" target="_blank"><img src="img/marvel_thumb2.png" alt="Marvel Quiz Thumbnail"></a>
+            </div>
+            <p class="projectText">
+            Project description: A quick quiz on the Marvel Movies! For anyone who loves the films.<br>
             List of technologies used: Javascript and JQuery DOM manipulation<br>
-            Link to live app: https://hudsonst.github.io/<br>
-            Link to repo: https://github.com/hudsonst/Marvel-Movies-Quiz-App</p></div>
+            <a href="https://hudsonst.github.io/" target="_blank">Link to live app</a>
+            <a href="https://github.com/hudsonst/Marvel-Movies-Quiz-App" target="_blank">Link to repo</a></p>
+            </div>
+
         </section>
 
         <section id="contact">
             <h3>Contact</h3>
             <a href="mailto:nadinegraham@gmail.com">nadinegraham@gmail.com</a>
+            <a href="https://github.com/hudsonst" target="_blank">My GitHub profile</a>
+            <a href="https://www.linkedin.com/in/nadine-graham-86a48261/" target="_blank">My LinkedIn profile</a>
         </section>
 
     </main>
